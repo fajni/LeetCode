@@ -3,6 +3,8 @@ import java.util.*;
 public class Best_Time_to_Buy_and_Sell_Stock {
     public static Scanner input = new Scanner(System.in);
 
+    //NOT ACCEPTED!
+    
     public static int maxProfit(int[] prices){
         int buy = prices[0]; //moras da kupis zato ide prices[0]
         //int sel = 0;//biggest price
