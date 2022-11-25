@@ -3,8 +3,6 @@ import java.util.*;
 public class Palindrome_Number {
     public static Scanner input = new Scanner(System.in);
 
-    //121 true, 123 false
-
     public static boolean isPalindrom(int x){
 
         String temp = Integer.toString(x);
