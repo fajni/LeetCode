@@ -16,7 +16,6 @@ public class Missing_Number_268 {
                     nums[i] = nums[j];
                     nums[j] = temp;
                 }
-
          */
 
         Arrays.sort(nums);
