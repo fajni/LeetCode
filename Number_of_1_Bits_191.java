@@ -4,6 +4,7 @@ import java.util.*;
 
 public class Number_of_1_Bits_191 {
 
+    // you need to treat n as an unsigned value
     public static int hammingWeight(int n) {
         int counter = 0, i =0;
         String s;
@@ -23,6 +24,5 @@ public class Number_of_1_Bits_191 {
 
         int n = 00000000000000000000000010000000;
         System.out.println(hammingWeight(n));
-        //System.out.println(n);
     }
 }
