@@ -32,6 +32,7 @@ public class Contains_Duplicate_217 {
 
     public static boolean containsDuplicates(int[] nums) {
 
+        /*You have to use Hashing because of big memory usage of array*/
         HashSet<Integer> set = new HashSet<>();
 
         for (int i = 0; i < nums.length; i++)
